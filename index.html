@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Roboto:300,400,500,700" rel="stylesheet">
+  <title>Les inputs radio</title>
+</head>
+
+<body>
+<div class="box-flex">
+  <input id="burns" type="text" name="truc" value="" placeholder="burns" maxlength="14" size="20">
+  </div>
+  <div class="box-flex">
+    <input id="burns2" type="text" name="truc" value="" placeholder="burns2" maxlength="14" size="20">
+    </div>
+<div class="box-flex">
+  <div class="cn-radio cn-radio-pro cn-radio-row">
+    <input id="LETTRE_VERTE" name="productType" title="Lettre Verte J+2" type="radio" value="yes" autocomplete="off">
+    <label for="LETTRE_VERTE" class="cn-radio-label">Oui</label>
+    <input id="LETTRE_PRIORITAIRE" name="productType" title="Lettre Prioritaire J+1" type="radio" value="no" autocomplete="off">
+    <label for="LETTRE_PRIORITAIRE" class="cn-radio-label">Non</label>
+    <input id="LETTRE" name="productType" title="Lettre Prioritaire J+1" type="radio" value="maybe" autocomplete="off">
+    <label for="LETTRE" class="cn-radio-label">Peut-être</label>
+  </div>
+</div>
+<div class="box-flex">
+<button id="btn-next-step" type="button" name="button" disabled="disabled" autocomplete="off">Next step</button>
+  </div>
+<script type="text/javascript" src="main.js">
+</script>
+</body>
+
+</html>
